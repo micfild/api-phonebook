@@ -1,0 +1,6 @@
+App\Entity\Person:
+    people{0..456}:
+        firstName: '<firstName()>'
+        lastName: '<lastName()>'
+        birthAt: '30%? <dateTimeBetween("-75 years", "-10 years")>'
+        notes: '20%? <paragraph(4)>'

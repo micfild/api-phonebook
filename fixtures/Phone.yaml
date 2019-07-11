@@ -1,0 +1,5 @@
+App\Entity\Phone:
+    phones{0..685}:
+        number: '<e164PhoneNumber()>'
+        type: '<randomElement(["home", "work", "fax"])>'
+        person: '@people*'
